@@ -1,0 +1,29 @@
+{
+  "name": "daily-coding-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:01": "jest ./__test__/01.spec.test.js --coverage",
+    "test:02": "jest ./__test__/02.spec.test.js --coverage"
+  },
+  "keywords": [],
+  "author": "Carlos Andres Delbarre",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "16.0.4",
+    "jest": "27.5.1"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json",
+    "env": {
+      "node": true,
+      "jest": true
+    }
+  }
+}
